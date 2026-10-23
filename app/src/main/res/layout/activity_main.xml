@@ -20,7 +20,12 @@
         android:text="个人信用评分模拟器"
         android:textSize="22sp"
         android:gravity="center"/>
-
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="袁浩翔" />
     <Button
         android:id="@+id/btn_jump"
         android:layout_width="match_parent"
